@@ -8,9 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "android:bundleRelease": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
-    "remove:androidDuplicateResources": "rm -rf ./android/app/src/main/res/drawable-* && rm -rf ./android/app/src/main/res/raw/",
-    "apk": "npm run android:bundleRelease && npm run remove:androidDuplicateResources && cd android && ./gradlew assembleRelease"
+    "apk": "cd android && ./gradlew assembleRelease"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.14.1",
@@ -36,6 +34,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
     "@babel/runtime": "^7.13.10",
     "@react-native-community/eslint-config": "^2.0.0",
     "@testing-library/react-native": "^7.2.0",
@@ -50,6 +49,9 @@
     "redux-mock-store": "^1.5.4"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupFiles": [
+      "./jest.setup.js"
+    ]
   }
 }
