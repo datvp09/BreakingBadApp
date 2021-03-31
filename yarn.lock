@@ -1347,6 +1347,13 @@
     "merge-deep" "^3.0.2"
     "svgo" "^1.2.2"
 
+"@testing-library/react-native@^7.2.0":
+  "integrity" "sha512-rDKzJjAAeGgyoJT0gFQiMsIL09chdWcwZyYx6WZHMgm2c5NDqY52hUuyTkzhqddMYWmSRklFphSg7B2HX+246Q=="
+  "resolved" "https://registry.npmjs.org/@testing-library/react-native/-/react-native-7.2.0.tgz"
+  "version" "7.2.0"
+  dependencies:
+    "pretty-format" "^26.0.1"
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   "integrity" "sha512-zGZJzzBUVDo/eV6KgbE0f0ZI7dInEYvo12Rb70uNQDshC3SkRMb67ja0GgRHZgAX3Za6rhaWlvbDO8rrGyAb1g=="
   "resolved" "https://registry.npmjs.org/@types/babel__core/-/babel__core-7.1.14.tgz"
@@ -4781,6 +4788,11 @@
   "resolved" "https://registry.npmjs.org/lodash.flatten/-/lodash.flatten-4.4.0.tgz"
   "version" "4.4.0"
 
+"lodash.isplainobject@^4.0.6":
+  "integrity" "sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs="
+  "resolved" "https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz"
+  "version" "4.0.6"
+
 "lodash.throttle@^4.1.1":
   "integrity" "sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ="
   "resolved" "https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz"
@@ -5847,7 +5859,7 @@
   "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.2.1.tgz"
   "version" "2.2.1"
 
-"pretty-format@^26.5.2", "pretty-format@^26.6.2":
+"pretty-format@^26.0.1", "pretty-format@^26.5.2", "pretty-format@^26.6.2":
   "integrity" "sha512-7AeGuCYNGmycyQbCqd/3PWH4eOoX/OiCa0uphp57NVTeAGdJGaAliecxwBDHYQCIvrW7aDBZCYeNTP/WX69mkg=="
   "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-26.6.2.tgz"
   "version" "26.6.2"
@@ -6062,7 +6074,7 @@
     "css-select" "^2.1.0"
     "css-tree" "^1.0.0-alpha.39"
 
-"react-native@*", "react-native@^0.60.6 || ^0.61.5 || ^0.62.2 || ^0.63.2 || ^0.64.0 || 1000.0.0", "react-native@>=0.42.0", "react-native@>=0.45.0", "react-native@>=0.50.0", "react-native@>=0.57", "react-native@>=0.60.0", "react-native@>=0.64.0-rc.0 || 0.0.0-*", "react-native@0.64.0":
+"react-native@*", "react-native@^0.60.6 || ^0.61.5 || ^0.62.2 || ^0.63.2 || ^0.64.0 || 1000.0.0", "react-native@>=0.42.0", "react-native@>=0.45.0", "react-native@>=0.50.0", "react-native@>=0.57", "react-native@>=0.59", "react-native@>=0.60.0", "react-native@>=0.64.0-rc.0 || 0.0.0-*", "react-native@0.64.0":
   "integrity" "sha512-8dhSHBthgGwAjU+OjqUEA49229ThPMQH7URH0u8L0xoQFCnZO2sZ9Wc6KcbxI0x9KSmjCMFFZqRe3w3QsRv64g=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.64.0.tgz"
   "version" "0.64.0"
@@ -6125,7 +6137,7 @@
     "object-assign" "^4.1.1"
     "react-is" "^16.12.0 || ^17.0.0"
 
-"react-test-renderer@17.0.1":
+"react-test-renderer@>=16.0.0", "react-test-renderer@17.0.1":
   "integrity" "sha512-/dRae3mj6aObwkjCcxZPlxDFh73XZLgvwhhyON2haZGUEhiaY5EjfAdw+d/rQmlcFwdTpMXCSGVk374QbCTlrA=="
   "resolved" "https://registry.npmjs.org/react-test-renderer/-/react-test-renderer-17.0.1.tgz"
   "version" "17.0.1"
@@ -6135,7 +6147,7 @@
     "react-shallow-renderer" "^16.13.1"
     "scheduler" "^0.20.1"
 
-"react@*", "react@^16.0.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^16.8.6", "react@~16.8.6 || ~16.9.0 || ~16.11.0 || ~16.13.1 || ~17.0.1", "react@16 || 17", "react@17.0.1":
+"react@*", "react@^16.0.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^16.8.6", "react@>=16.0.0", "react@~16.8.6 || ~16.9.0 || ~16.11.0 || ~16.13.1 || ~17.0.1", "react@16 || 17", "react@17.0.1":
   "integrity" "sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.1.tgz"
   "version" "17.0.1"
@@ -6191,6 +6203,13 @@
   "version" "0.6.2"
   dependencies:
     "resolve" "^1.1.6"
+
+"redux-mock-store@^1.5.4":
+  "integrity" "sha512-xmcA0O/tjCLXhh9Fuiq6pMrJCwFRaouA8436zcikdIpYWWCjU76CRk+i2bHx8EeiSiMGnB85/lZdU3wIJVXHTA=="
+  "resolved" "https://registry.npmjs.org/redux-mock-store/-/redux-mock-store-1.5.4.tgz"
+  "version" "1.5.4"
+  dependencies:
+    "lodash.isplainobject" "^4.0.6"
 
 "redux-persist@^6.0.0":
   "integrity" "sha512-71LLMbUq2r02ng2We9S215LtPu3fY0KgaGE0k8WRgl6RkqxtGfl7HUozz1Dftwsb0D/5mZ8dwAaPbtnzfvbEwQ=="
